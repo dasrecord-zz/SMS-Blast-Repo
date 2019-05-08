@@ -3,9 +3,10 @@ A script that leverages an IFTTT webhook receiver to automate Android SMS.
 
 Step 1.
 Configure your (free) IFTTT account at https://ifttt.com/
+Once registered, click your account and select New Applet.
 
 Step 2.
-Creat an applet that uses the Webhooks Receiever module as the THIS trigger.
+Create an applet that uses the Webhooks Receiever module as the THIS trigger.
 Select Receive a Web request.
 
 Step 3.
