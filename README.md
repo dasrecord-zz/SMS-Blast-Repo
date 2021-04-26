@@ -2,7 +2,7 @@
 A script that leverages an IFTTT webhook receiver to automate Android SMS.
 
 Step 1.
-Configure your (free) IFTTT account at https://ifttt.com/
+Configure your (free) IFTTT account at <https://ifttt.com/>
 Once registered, click your account and select New Applet.
 
 Step 2.
@@ -29,9 +29,11 @@ Step 7.
 Configure your vip.py file with names and numbers.
 
 Step 8.
-Open vip_blast.py and ensure your "event_name" and "key"
-Your "key" information is located in Webhook Receiver Documentation on IFTTT.
-https://ifttt.com/maker_webhooks
+Open vip_blast.py
+Get ensure "event_name" from Step 3.
+Get "key" information from Webhook Receiver Documentation on IFTTt
+Found here <https://ifttt.com/maker_webhooks> (while logged into IFTTT)
+
 
 Step 9.
 Run vip_blast.py and enjoy.
