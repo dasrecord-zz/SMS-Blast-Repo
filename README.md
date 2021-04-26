@@ -1,5 +1,5 @@
 # SMS-Blast-Repo
-A script that leverages an IFTTT webhook receiver to automate Android SMS.
+A script that leverages an IFTTT webhook receiver to automate outbound Android SMS.
 
 Step 1.
 Configure your (free) IFTTT account at <https://ifttt.com/>
@@ -12,6 +12,7 @@ Select Receive a Web request.
 Step 3.
 Choose a single string "event_name" and enter it here.
 This will be used to correctly aim the web request from vip_blast.py
+Do not use spaces and try not to use special characters.
 
 Step 4.
 Select Android SMS as the THAT action and press connect"
@@ -31,7 +32,7 @@ Configure your vip.py file with names and numbers.
 Step 8.
 Open vip_blast.py
 Get ensure "event_name" from Step 3.
-Get "key" information from Webhook Receiver Documentation on IFTTt
+Get "key" information from Webhook Receiver Documentation on IFTTT
 Found here <https://ifttt.com/maker_webhooks> (while logged into IFTTT)
 
 
